@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diseños UCR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <div class="seccion">
+    <p class="titulo-seccion">Diseño 1 — Banner</p>
+    <!-- Usa contenido por defecto de los slots -->
+    <banner-ucr></banner-ucr>
+  </div>
+  
+  <div class="seccion">
+    <p class="titulo-seccion">Diseño 2 — Panel UCR</p>
+    <!-- Filas van al slot por defecto, pie al slot nombrado -->
+    <panel-ucr>
+      <div class="panel-fila">
+        <span class="fila-texto">Aulas 5, 6, 7</span>
+        <span class="flecha">➔</span>
+      </div>
+      <div class="panel-fila">
+        <span class="fila-texto">Apoyo Informático</span>
+        <span class="flecha">➔</span>
+      </div>
+      <div class="panel-fila">
+        <span class="fila-texto">Servidores</span>
+        <span class="flecha">➔</span>
+      </div>
+      <div class="panel-fila">
+        <span class="fila-texto">Laboratorio 1 y 2</span>
+        <span class="flecha">➔</span>
+      </div>
+      <div class="panel-fila">
+        <span class="fila-texto">
+          Coordinación<br>
+          Informática Empresarial
+        </span>
+        <span class="flecha">➔</span>
+      </div>
+      <span slot="pie">UCR</span>
+    </panel-ucr>
+  </div>
+
+ <script type="module" src="./src/main.js"></script>
+</body>
+</html>
