@@ -4,17 +4,17 @@ Proyecto que implementa componentes UCR usando **Shadow DOM**, **CSS Scoping**, 
 
 ---
 
-## 🚀 Ejecutar el proyecto
+## Ejecutar el proyecto
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 Abre `http://localhost:1234` en el navegador.
 
 ---
 
-## 🧩 Componentes
+## Componentes
 
 ### `<banner-ucr>`
 
@@ -26,7 +26,7 @@ Panel de navegación con filas y pie de página.
 
 ---
 
-## 🎨 Formas de personalizar los componentes
+## Formas de personalizar los componentes
 
 ### 1. Slots (Ranuras HTML)
 
@@ -194,7 +194,7 @@ panel-ucr::part(panel) {
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 lab10_multimedioss/
@@ -208,7 +208,7 @@ lab10_multimedioss/
 └── package.json
 ```
 
-## 🔑 Conceptos aplicados
+## Conceptos aplicados
 
 | Concepto       | Uso en el proyecto                                                |
 |----------------|-------------------------------------------------------------------|
